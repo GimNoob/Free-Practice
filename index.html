@@ -3,10 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>자유 연습</title>
+  <style>
+  </style>
   </head>
+
   <body>
 <h1>태그들을 사용하여 연습해보자</h1>
 <hr />
+<a href="#pre"><h2>&lt;pre&gt; 태그란 </h2></a>
 <p>
 <ul tpye="circle">
 <li>내가 할 줄 아는 음식 목록</li>
@@ -66,10 +70,34 @@ start="0">
 <a href="https://www.kakaocorp.com/service/KakaoTalk" title="기요미" target="blank">
   <img src="12.png" alt="어라 이미지가 어디갔지;"> </a>
 </p>
-<p>&lt;pre&gt; 태그를 사용하면 편집기에서 작성한 그대로 문자가 출력된다.
+<p id="pre">&lt;pre&gt; 태그를 사용하면 편집기에서 작성한 그대로 문자가 출력된다.
 <pre>닫을 필요가 있던가?
   없던
   가?</pre>
 </p>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://jayuyeonseub.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
     </body>
     </html>
